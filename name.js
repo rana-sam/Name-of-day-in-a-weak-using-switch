@@ -1,5 +1,5 @@
 let nam=['sunday','monday','tuseday','wednesday','thursday','friday','saturday'];
- let num=parseInt(prompt("enter number for day name"))
+ let num=parseInt(prompt("Enter number for day name.    Press 8 to print display all name"))
      switch (num) {
          case 1:
              console.log(nam[0]);
@@ -21,6 +21,12 @@ let nam=['sunday','monday','tuseday','wednesday','thursday','friday','saturday']
              break;
          case 7:
              console.log(nam[6]);
+             break;
+         case 8:
+             for(var i=0;i<7;i++){
+
+                 console.log(nam[i]);
+             }
              break;
      
          default:
